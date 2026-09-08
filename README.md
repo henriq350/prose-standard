@@ -56,3 +56,33 @@ The clearest hole is the empirical case for plain language. Kimble's compilation
 reached, nor could Wydick. Carroll's minimalism is secondary throughout. Search engines were
 unavailable during the research, so gaps were filled by direct fetching and archive lookups, and some
 could not be filled at all. Each file lists its own.
+
+## Installing it
+
+Two mechanisms, two surfaces. They are not interchangeable.
+
+**The skill — for artifacts.** `.claude/skills/prose/`. Loads only when the task is to write or revise
+something. Keep it on-demand: it is ~1 500 words of standard behind a short entry point, and it has no
+business being in context while someone writes C#.
+
+```
+cp -r .claude/skills/prose <target-repo>/.claude/skills/     # one project
+cp -r .claude/skills/prose ~/.claude/skills/                 # everywhere
+```
+
+**The output style — for replies.** `.claude/output-styles/agent-responses.md`. Always on once
+selected, because turn-shaping that applies only sometimes is not turn-shaping. Select with
+`/output-style`.
+
+```
+cp .claude/output-styles/agent-responses.md ~/.claude/output-styles/
+```
+
+**Not `CLAUDE.md`.** A pointer line is fine; the standard itself is not. It would sit in context on
+every turn of every task, including tasks with no prose in them.
+
+**Not a path-scoped rule**, except as a supplement. Rules fire on file globs, so `docs/**/*.md` works
+and PR descriptions and commit messages — the cases that matter most — never match anything.
+
+Copying is the install, so drift is the cost. This repository is the source of truth; re-copy rather
+than editing a copy in place.
