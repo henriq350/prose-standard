@@ -13,12 +13,12 @@ Then, depending on what you are doing:
 | Situation | Read |
 | :--- | :--- |
 | Writing something new | `base.md` |
-| The output is a commit message, PR description, issue, spec, design note, or a document for someone outside the team | `base.md` + the matching section of `outputs/README.md` |
+| The output is a commit message, PR description, issue, spec, design note, or a document for someone outside the team | `base.md` + the matching section of `outputs.md` |
 | Revising a draft that already exists | `base.md` + `editing.md` |
 | The document has terms that could be named more than one way | start a `style-sheet.md` beside it |
 
-Paths are relative to this repository. If it is installed elsewhere, they are relative to the skill
-directory.
+All four files sit beside this one in the skill directory, so they travel with it wherever it is
+installed.
 
 ## The short version, if you read nothing else
 
