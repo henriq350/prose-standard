@@ -42,6 +42,20 @@ material, and used 92 sentences against 133.
 almost identical across two very different tasks (8.8%, 8.7%), while the control's swung from 14.5% to
 6.8%. Consistency is what a standard would be expected to produce. Two points is not evidence of it.
 
+## One human judgement, recorded for what it is
+
+After reading both test 002 documents side by side, the person who commissioned this standard judged the
+standard-written one clearly more readable, and said so unprompted.
+
+That is the only human assessment in this repository, and every caveat applies at once: one reader,
+unblinded, who knew which document was which, who had already read the scoring above, and who has an
+interest in the standard being useful. It is not independent evidence.
+
+Two things stop it being worthless. The measurements had already come back negative and were accepted
+as negative rather than argued with, so the judgement was not a refusal of a disappointing result. And
+the difference they named — readability on reading — is the thing the measurements could not reach,
+which is why it is recorded here rather than folded into the scoring.
+
 ## Where these tests are still wrong
 
 - **I contaminated criterion 4 in test 002.** Both agents were told "if something is not answerable from
@@ -50,7 +64,7 @@ almost identical across two very different tasks (8.8%, 8.7%), while the control
   supplied the behaviour to both.
 - **n=1 per condition, one model, one author of both briefs.**
 - **The evaluation is mine**, on a standard I wrote, using criteria I chose. Blind scoring by someone
-  else would be worth more than another run.
+  else would be worth more than another run — and the one human judgement recorded above is not it.
 
 ## Conclusion
 

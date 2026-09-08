@@ -11,8 +11,12 @@ is named because it is somebody else's job, not because it is unimportant.
 
 One caution before the substance. Most of what follows is craft, some is a formal model, and a little
 is measured — in settings that may not resemble yours. `research/` records which is which for every
-claim, and `README.md` summarises it. Nothing here is evidence that this standard produces better
-documents. It has not been tested.
+claim, and `README.md` summarises it.
+
+It has since been tested twice, and neither run showed a measurable improvement: one comparison was
+invalidated by its own design, and the other separated the two documents on nothing except length. A
+single unblinded human reader preferred the standard-written document. `experiments/results.md` reports
+all of it. Nothing here is demonstrated to produce better documents.
 
 ---
 

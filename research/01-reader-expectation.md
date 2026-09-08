@@ -1,5 +1,10 @@
 # Reader Expectation and Sentence-Level Information Order — Source Research
 
+> **Grading gap.** Unlike files 02, 03 and 04, this one grades its sources only by access
+> (PRIMARY/SECONDARY) and not by kind (THEORETICAL/EMPIRICAL/CRAFT). Gopen & Swan and Williams are
+> both **CRAFT** — reader-expectation writing with no study cited — which matters, because
+> `base.md` §2 leans on them harder than on any labelled source elsewhere.
+
 Cluster: reader-expectation and sentence-level information order.
 Compiled for: design of a writing standard.
 

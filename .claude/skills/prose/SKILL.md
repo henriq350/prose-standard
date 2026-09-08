@@ -39,10 +39,3 @@ different document: `.claude/output-styles/agent-responses.md`.
 
 **Consistency.** `base.md` can ask for one name per thing; only a style sheet kept beside the document
 can deliver it.
-
-## Honesty about what this is
-
-`experiments/results.md` records two controlled comparisons. Neither showed a measurable improvement,
-and the one effect that appeared under a confound reversed without it. A human reader preferred the
-standard-written document on the clean test, unblinded. Use it because its decisions are recorded and
-defensible, not because it is proven.
